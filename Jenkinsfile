@@ -29,7 +29,7 @@ pipeline
 
         stage('Run tests') 
         {
-            paraller 
+            parallel 
             {
                 stage('Test') 
                 {
